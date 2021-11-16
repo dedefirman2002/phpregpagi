@@ -19,7 +19,7 @@ if( $_SESSION['level']== "admin"){
 		<td>Alamat</td>
 		<td>No Tlpn</td>
 		<td colspan="4">Action</td>
-		<?php if($_SESSION['level'=="admin"])?>
+		<?php if($_SESSION['level']=="admin")?>
 	</tr>
 <?php 
 $no=1;
