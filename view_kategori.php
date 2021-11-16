@@ -18,7 +18,7 @@ if( $_SESSION['level']== "admin"){
 		<td>Id Kategori</td>
 		<td>Nama</td>
 		<td colspan="4">Action</td>
-		<?php if($_SESSION['level'=="admin"])?>
+		<?php if($_SESSION['level']=="admin")?>
 	</tr>
 <?php 
 $id_kategori=1;
